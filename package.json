@@ -1,0 +1,24 @@
+{
+  "name": "glowing-invention",
+  "version": "1.0.0",
+  "description": "Continuous Integration / Continuous Deployment pipeline example using simple webpage and Github actions to publish directly to AWS",
+  "main": "index.js",
+  "dependencies": {
+    "@actions/core": "^1.2.4",
+    "@actions/github": "^3.0.0",
+    "jest": "^26.0.1"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JBenAnderson/glowing-invention.git"
+  },
+  "author": "jrw@mit.edu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JBenAnderson/glowing-invention/issues"
+  },
+  "homepage": "https://github.com/JBenAnderson/glowing-invention#readme"
+}
